@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
+
+.cards__btn {
+    background-color: #036F33;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px 4px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 90%;
+    text-align: left;
+}
+
+.cards__btn:visited {
+    color: white;
+}
+
+.about__btn-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: baseline;
+    width: 100%;
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (768px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 768px) {
+    .news {
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+    }
+
+    .news__col1 {
+        width: 100%;
+    }
+
+    .news__col2 {
+        width: 100%;
+        padding: 5em 2em 5em 2em;
+    }    
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 425px) {
+    .news__news-minutes-head {
+        font-size: 30px;
+    }
+
+    .news__newshead {
+        font-size: 30px;
+    }
+    
+}
+
