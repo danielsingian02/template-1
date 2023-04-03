@@ -131,12 +131,13 @@ div#primary-menu{
   & li:hover {
     padding: 10px;
     list-style: none;
-    background-color: #004BAC;
+    background-color: #036F33;
+    color: white;
   }
 
   & ul {
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin: 0px;
   }
 

@@ -7,7 +7,7 @@
     background-image: url("assets/images/HeroBanner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     background-position: center;
 }
 
@@ -16,7 +16,7 @@
     font-size: 70px;
     font-weight: 700;
     color:white;
-    width:50%;
+    width: 80%;
     text-align: center;
 }
 
@@ -170,8 +170,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    padding-left: 10px;
 }
-
 
 .button {
     background-color: #036F33;
@@ -335,12 +335,11 @@ iframe.location__iframe {
 // --------------------------------------------------------------------------------------------------------//
 
 @media only screen and (max-width: 768px) {
-
 /* Hero Banner */ 
-    .hero-banner {
+    section.hero-banner {
         display: flex;
         flex-direction: column;
-        height: 40vh;
+        height: 30vh;
     }
 
     .hero-banner .col-sec {
@@ -354,8 +353,6 @@ iframe.location__iframe {
     .hero-banner__col2 {
         width: 100%;
     }
-
-/* end of Hero Banner */ 
 
 /* About */ 
     .about .col-sec {
@@ -377,16 +374,14 @@ iframe.location__iframe {
 
     .about__colwrapper {
         width: 100%;
+        padding: 2em;
     }
 
     .about__col1__head {
         padding: 20px 0;
     }
 
-/* end of about Banner */ 
-
 /* Info */
-
     .info .col-sec {
         padding: 2em;
         display: flex;
@@ -400,8 +395,6 @@ iframe.location__iframe {
     .info__img {
         width: 100%;
     }
-
-/* end of Info */
 
 /* Card */
     .card-wrapper {
@@ -491,7 +484,7 @@ iframe.location__iframe {
         }
       }
     
-/* end of Map */
+    /* end of Map */
 }
 
 // --------------------------------------------------------------------------------------------------------//
@@ -508,10 +501,15 @@ iframe.location__iframe {
         font-size: 28px;
     }
 
-/* About */
     .hero__form-btn-container {
         display: flex;
         justify-content:start;
+    }
+
+/* About */
+
+    .about__colwrapper {
+        padding: 1em 0;
     }
 
     .hero__form-title {

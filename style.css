@@ -63,7 +63,7 @@
   background-image: url("assets/images/HeroBanner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
   background-position: center;
 }
 
@@ -72,7 +72,7 @@
   font-size: 70px;
   font-weight: 700;
   color: white;
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
@@ -224,6 +224,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  padding-left: 10px;
 }
 
 .button {
@@ -381,10 +382,10 @@ iframe.location__iframe {
 /* end of map section */
 @media only screen and (max-width: 768px) {
   /* Hero Banner */
-  .hero-banner {
+  section.hero-banner {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 30vh;
   }
   .hero-banner .col-sec {
     padding: 2em;
@@ -395,7 +396,6 @@ iframe.location__iframe {
   .hero-banner__col2 {
     width: 100%;
   }
-  /* end of Hero Banner */
   /* About */
   .about .col-sec {
     padding: 2em;
@@ -412,11 +412,11 @@ iframe.location__iframe {
   }
   .about__colwrapper {
     width: 100%;
+    padding: 2em;
   }
   .about__col1__head {
     padding: 20px 0;
   }
-  /* end of about Banner */
   /* Info */
   .info .col-sec {
     padding: 2em;
@@ -429,7 +429,6 @@ iframe.location__iframe {
   .info__img {
     width: 100%;
   }
-  /* end of Info */
   /* Card */
   .card-wrapper {
     display: flex;
@@ -509,10 +508,13 @@ iframe.location__iframe {
   .hero-banner__heading {
     font-size: 28px;
   }
-  /* About */
   .hero__form-btn-container {
     display: flex;
     justify-content: start;
+  }
+  /* About */
+  .about__colwrapper {
+    padding: 1em 0;
   }
   .hero__form-title {
     font-size: 20px;
@@ -697,11 +699,12 @@ header#masthead {
 .main-navigation-burger li:hover {
   padding: 10px;
   list-style: none;
-  background-color: #004BAC;
+  background-color: #036F33;
+  color: white;
 }
 .main-navigation-burger ul {
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   margin: 0px;
 }
 .main-navigation-burger a {
@@ -821,6 +824,7 @@ hr.solid-line {
 .footer__navigation a {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
